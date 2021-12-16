@@ -1,0 +1,11 @@
+---
+sat_url: https://satellte.randalllabs.com
+new_hostname:
+host_group:
+vm_image:
+vm_location: "Basement"
+vm_cpu:
+vm_mem:
+vm_compute_resource: vCenter
+vm_lifecycle:
+vm_subnet: "lnx"

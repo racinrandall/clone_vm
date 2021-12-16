@@ -1,0 +1,18 @@
+---
+- name: Clone VM in Satellite
+  redhat.satellite.host:
+    username: "{{ sat_user }}"
+    password: "{{ sat_pass }}"
+    server_url: "{{ sat_url }}"
+    name: "{{ new_hostname }}"
+    hostgroup: "{{ host_group }}"
+    provision_method: image
+    image: "{{ vm_image }}"
+    organization: "USMINT"
+    compute_resource: "{{ vm_compute_resource }}"
+    lifecycle_environment: "{{ vm_lifecycle }}"
+    subnet: "{{ vm_subnet }}"
+    compute_attributes:
+      cpus: "{{ vm_cpu }}"
+      memory_mb: "{{ vm_mem }}"
+    state: present
