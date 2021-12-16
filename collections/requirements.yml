@@ -1,1 +1,2 @@
-- redhat.satellite
+collections:
+  - redhat.satellite
