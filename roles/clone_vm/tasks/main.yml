@@ -1,4 +1,5 @@
 ---
+- include_vars: user.yml
 - name: Clone VM in Satellite
   redhat.satellite.host:
     username: "{{ sat_user }}"
