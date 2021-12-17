@@ -10,6 +10,7 @@
     provision_method: image
     image: "{{ vm_image }}"
     organization: "Randall"
+    location: "{{ vm_location }}"
     compute_resource: "{{ vm_compute_resource }}"
     lifecycle_environment: "{{ vm_lifecycle }}"
     subnet: "{{ vm_subnet }}"
