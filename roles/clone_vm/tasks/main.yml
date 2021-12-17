@@ -19,3 +19,4 @@
       memory_mb: "{{ vm_mem }}"
     state: present
     validate_certs: false
+    managed: true
