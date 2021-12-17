@@ -9,7 +9,7 @@
     hostgroup: "{{ host_group }}"
     provision_method: image
     image: "{{ vm_image }}"
-    organization: "USMINT"
+    organization: "Randall"
     compute_resource: "{{ vm_compute_resource }}"
     lifecycle_environment: "{{ vm_lifecycle }}"
     subnet: "{{ vm_subnet }}"
