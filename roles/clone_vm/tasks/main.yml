@@ -13,7 +13,6 @@
     location: "{{ vm_location }}"
     compute_resource: "{{ vm_compute_resource }}"
     lifecycle_environment: "{{ vm_lifecycle }}"
-    domain: "{{ vm_domain }}"
     subnet: "{{ vm_subnet }}"
     compute_attributes:
       cpus: "{{ vm_cpu }}"
@@ -22,11 +21,11 @@
     validate_certs: false
     build: true
 
-#- name: Power on new VM
-# redhat.satellite.host_power:
-#    username: "{{ sat_user }}"
-##    password: "{{ sat_pass }}"
- #   server_url: "{{ sat_url }}"
-#    hostname: "{{ new_hostname }}"
-#    state: on
-#    validate_certs: false
+- name: Power on new VM
+  redhat.satellite.host_power:
+    username: "{{ sat_user }}"
+    password: "{{ sat_pass }}"
+    server_url: "{{ sat_url }}"
+    hostname: "{{ new_hostname }}"
+    state: on
+    validate_certs: false

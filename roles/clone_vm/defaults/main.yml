@@ -9,4 +9,3 @@ vm_mem:
 vm_compute_resource: vCenter
 vm_lifecycle:
 vm_subnet: "lnx"
-vm_domain:
