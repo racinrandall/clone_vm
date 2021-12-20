@@ -17,6 +17,7 @@ The following variables are used in this role and MUST be passed in from command
   - vm_lifecycle: 
   - vm_cpu: Number of CPUs required for VM.
   - vm_mem: How much RAM is required for VM.
+  - vm_domain: what domain to place VM in.
 
 The following variables are configured with default values that you may choose to change:
   
