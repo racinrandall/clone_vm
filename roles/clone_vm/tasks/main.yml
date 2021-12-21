@@ -20,7 +20,7 @@
     state: present
     validate_certs: false
     build: true
-    activation_keys: test
+    activation_keys: test,RHEL8
 
 - name: Power on new VM
   redhat.satellite.host_power:
