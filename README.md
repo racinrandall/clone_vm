@@ -16,7 +16,7 @@ The following variables are used in this role and MUST be passed in from command
   - vm_image:  This is the image to clone from.  
   - vm_lifecycle: 
   - vm_cpu: Number of CPUs required for VM.
-  - vm_mem: How much RAM is required for VM.
+  - vm_mem: How much RAM is required for VM.  This is in MB.
 
 
 The following variables are configured with default values that you may choose to change:
